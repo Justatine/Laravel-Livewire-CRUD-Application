@@ -11,8 +11,12 @@
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## Reference
-[Laravel Livewire CRUD App](https://medium.com/techvblogs/laravel-livewire-crud-tutorial-b8bdda8e44ad)
+## References
+- [Laravel Livewire CRUD App](https://medium.com/techvblogs/laravel-livewire-crud-tutorial-b8bdda8e44ad)
+- [Laravel Docs](https://laravel.com/docs/11.x/)
+- [Livewire Docs](https://livewire.laravel.com/docs/installation)
+- [Flowbite || Tailwind CSS Components](https://flowbite.com/docs/components/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/)
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
