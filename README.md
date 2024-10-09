@@ -17,3 +17,46 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Livewire Docs](https://livewire.laravel.com/docs/installation)
 - [Flowbite || Tailwind CSS Components](https://flowbite.com/docs/components/)
 - [Tailwind CSS Docs](https://tailwindcss.com/docs/)
+
+## `Important Commands`
+
+Initialize livewire: "composer require livewire/livewire".\
+Make a livewire component: "php artisan make:livewire **_Livewire_name_**".\
+No ideas about livewire? Try to watch this [video](https://www.youtube.com/watch?v=hL7sVFSkph8) to have some.
+
+> [!IMPORTANT]
+> Steps to create laravel project
+
+1. Step 1: Create Laravel Application
+    - composer create-project --prefer-dist laravel/laravel **_project_name_** 
+2. Open config/app.php set **'timezone'=>'Asia/Manila'** 
+3. Modify charset and collation in config/database.php **'charset'=>'utf8'** and **'collation'=>'utf8_general_ci'** 
+4. Configure Database Details
+    - Modify .env 
+5. Install Livewire Package
+    - composer require livewire/livewire
+6. Create Model and Migration
+    - php artisan make:model **_model_name_** -m
+    - Configure app/database/migrations/**you_migration_table**.php
+7. Migrate database
+    - php artisan migrate
+8. Modify inside model
+    - public $timestamps = true; 
+    - protected $fillable = [
+        'data',
+        'data',
+        'data'
+    ]; 
+    - protected $guarded = [];
+    - protected $primaryKey = '**you_primary_key**';
+9. Create Livewire Component and View
+    - php artisan make:livewire **_livewire_name_**
+10. Configure app/Http/Livewire/**_your_livewire_name_**.php
+11. Create resources/views/**_your_filename_**.php and update the following code into that file
+12. Define Routes
+    - Open routes/web.php and update the following code into that file
+    - Route::get('/',function(){
+        return view('**_your_filename_**');
+    });
+11. Run Project
+    - php artisan serve
